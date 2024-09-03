@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tierlist</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="container">
+      <div id="tierlist-container">
+        <h2 id="page-title">Tierlist Maker</h2>
+      </div>
+      <div id="image-pool">
+        <div id="show-modal">
+          <button><i class="ri-image-add-line"></i></button>
+        </div>
+      </div>
+    </main>
+
+    <div id="modal-overlay">
+      <div id="modal">
+        <div id="close-modal" class="flex-row">X</div>
+        <div class="input-group">
+          <div>
+            <i class="ri-link-m"></i>
+            <label for="img-url">Enter Image Url : </label>
+          </div>
+          <input type="text" id="img-url" />
+        </div>
+        <span>OR</span>
+        <div class="input-group">
+          <div>
+            <i class="ri-upload-cloud-line"></i>
+            <label for="img-url">Upload an image : </label>
+          </div>
+          <input id="img-upload" type="file" accept="image/*" />
+        </div>
+
+        <button id="add-img-btn">Continue &rarr;</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
