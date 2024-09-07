@@ -44,7 +44,7 @@ i {
   background-color: var(--bg-dark);
   padding: 2vw 4vw;
   display: flex;
-  gap: 1vw;
+  gap: 0.5vw;
 }
 
 #tierlist-container {
@@ -52,7 +52,7 @@ i {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 4px;
   position: relative;
 }
 
@@ -78,20 +78,21 @@ i {
   width: 15%;
   display: flex;
   color: var(--bg-grey);
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 1.5vw;
+  font-weight: 550;
   align-items: center;
   justify-content: center;
+  user-select: none;
 }
 
 .tier-content {
-  width: 85%;
+  width: 100%;
   background-color: var(--bg-grey);
-  padding: 20px 20px;
+  padding: 0 5px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 5px;
 }
 
 .tier-img {
@@ -132,8 +133,8 @@ i {
 }
 
 #show-modal {
-  width: 6vw;
-  height: 6vw;
+  width: 5vw;
+  height: 5vw;
   border-radius: 50%;
 }
 
